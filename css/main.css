@@ -306,8 +306,36 @@ nav>ul>li:first-child {
     display: flex;
     margin-top: 95px;
 }
+.noticias{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 .portada{
     width: 35%;
     padding: 20px;
+}
+.resena{
+    width: 80%;
+    padding: 40px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.libros{
+    width: 80%;
+    display: flex;
+    margin-top: 75px;
+    justify-content: center;
+}
+.librito{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+}
+.presenta{
+    width: 80%;
+    margin: 10px;
 }
 
