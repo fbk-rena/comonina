@@ -5,7 +5,7 @@
 }
 
 .logo-container {
-    width: 10%
+    width: 7.5%
 }
 
 .logo-container {
@@ -18,10 +18,14 @@ nav {
     position: fixed;
 }
 
-.nav-li {
-    list-style: none;
+.nav-btn {
     width: 15%;
     text-align: center;
+    border: white solid;
+    border-radius: 7%;
+    background-color: #76B041;
+    font-size: 1.35em;
+    color: #2E282A;
 }
 
 .noticias {
@@ -41,12 +45,14 @@ nav {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.section-body{
+
+.section-body {
     width: 75%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
+
 .section-btn {
     width: 100%;
     display: flex;
@@ -66,63 +72,70 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
-.img-btn{
+
+.img-btn {
     width: 25%
 }
-.section-feed{
+
+.section-feed {
     width: 100%;
     display: flex;
     padding: 15px;
     flex-wrap: wrap;
 }
-.feed{
+
+.feed {
     width: 100%;
     display: flex;
     margin: 5px;
 }
-.feed-img{
+
+.feed-img {
     width: 15%;
     display: flex;
 }
-.feed-profile{
+
+.feed-profile {
     max-width: 150px;
     max-height: 150px;
     padding: 10px;
 }
-.feed-container{
+
+.feed-container {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
 }
-.content-feed{
+
+.content-feed {
     width: 100%;
 }
-.content-feed>img{
+
+.content-feed>img {
     max-width: 100%;
 }
 
-.feed-btns{
+.feed-btns {
     width: 45%;
     display: flex;
-    
 }
-.feed-click{}
 
+.feed-click {}
 
 .post-destacados {
     width: 17%;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
-.post{
+
+.post {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 10px
 }
-
 
 .img-post {
     width: 70%;
@@ -131,4 +144,52 @@ nav {
 
 .img-post img {
     max-width: 100%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    background-color: #17BEBB;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+
+.social-net {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin: 7px
+}
+
+.net-img {
+    width: 3%;
+}
+
+.net-img img {
+    width: 100%;
+}
+
+#terms {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+}
+
+p,
+#terms,
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+button,
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Boogaloo', cursive;
 }
