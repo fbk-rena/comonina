@@ -324,6 +324,14 @@ nav>ul>li:first-child {
     padding: 40px;
     margin-right: 20px;
 }
+.calificacion{
+    width: 252px;
+    height: 85px;
+    display: flex;
+}
+.calificacion img{
+    max-width: 100%;
+}
 .libros{
     width: 80%;
     display: flex;
