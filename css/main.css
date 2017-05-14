@@ -71,7 +71,7 @@ nav {
 }
 
 .section-btn {
-    width: 105%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     background-color: #EEF3F5;
@@ -312,6 +312,8 @@ nav>ul>li:first-child {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 .portada{
     width: 35%;
@@ -334,6 +336,8 @@ nav>ul>li:first-child {
     flex-direction: column;
     padding: 25px;
     justify-content: center;
+    background-color: #EEF3F5;
+    margin: 25px;
 }
 .presenta{
     width: 80%;
